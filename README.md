@@ -1,5 +1,5 @@
-![1](https://github.com/Yoskorn-Git/MyWebsiteAssessment/assets/57613606/7f1d3850-3309-4d09-9049-62fe93b28e93)<h2 align="center">
-  My Website <br/>
+<h2 align="center">
+  My Website Assessment <br/>
 </h2>
 
 ![1](https://github.com/Yoskorn-Git/MyWebsiteAssessment/assets/57613606/3edd2600-5c39-49ea-ab8e-68c74d22eaba)
