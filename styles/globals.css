@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+@media screen and (max-width: 640px) {
+  .main {
+    padding: 0;
+  }
+}
+
+/* Tailwind Styles */
+
+.page_container {
+  @apply min-h-[90vh] w-screen flex flex-col items-center justify-center
+}
+
+
+.app {
+  @apply relative z-10 flex justify-center items-center flex-col;
+}
+
+.head_text {
+  @apply text-xl font-bold inter-font leading-[1.15] text-[#6C0345];
+}
+
+.body_text {
+  @apply text-base font-normal inter-font text-black;
+}
+
+
+/* Nav Component */
+.logo_text {
+  @apply max-sm:hidden font-satoshi font-semibold text-lg text-black tracking-wide;
+}
+
+.dropdown {
+  @apply absolute top-[20px] right-0;
+}
+
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
+
+.flex-start {
+  @apply flex justify-start items-start;
+}
+
+.flex-end {
+  @apply flex justify-end items-center;
+}
+
+.flex-between {
+  @apply flex justify-between items-center;
+}
+
+/* Navbar Component */
+.navbar-body {
+  background-color: white;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  position: sticky !important;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  /* transition: transform 500ms ease */
+}
+
+.navbar-body {
+  @apply flex-between h-24 w-full mx-auto sm:px-16 px-6
+}
+
+
+@media (min-width: 768px) {
+  .sticky-div {
+    position: sticky;
+    top: 10rem !important;
+  }
+}
