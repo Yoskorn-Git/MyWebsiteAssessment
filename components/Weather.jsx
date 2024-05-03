@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function Weather() {
   const [location, setLocation] = useState(null);
