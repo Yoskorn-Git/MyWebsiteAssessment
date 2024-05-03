@@ -5,10 +5,9 @@ const nextConfig = {
         
         return config;
     },
-    publicRuntimeConfig: {
-        // Will be available on both server and client
-        weatherkey: process.env.API_WEATHER_KEY,
-      },
+    env: {
+      API_WEATHER_KEY: process.env.API_WEATHER_KEY,
+    },
     images: {
         domains: ['cdn.weatherapi.com'],
       },

@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 function Weather() {
   const [location, setLocation] = useState(null);
   const [weatherData, setWeatherData] = useState(null);
-  const apiKey = 'b542e2e87fd74e1584e190024240205';
+  const apiKey = process.env.API_WEATHER_KEY;
 
   useEffect(() => {
     if (navigator.geolocation) {
