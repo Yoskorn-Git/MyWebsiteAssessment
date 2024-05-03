@@ -1,13 +1,12 @@
-<h2 align="center">
-  My Portfolio Website - v1.0<br/>
-  <a href="https://yoskorn.site" target="_blank">yoskorn.site</a>
+![1](https://github.com/Yoskorn-Git/MyWebsiteAssessment/assets/57613606/7f1d3850-3309-4d09-9049-62fe93b28e93)<h2 align="center">
+  My Website <br/>
 </h2>
 
-![image](https://github.com/Yoskorn-Git/my-webfolio-repo/assets/57613606/c6415130-4c4e-4033-9318-da8a5d7543b1)
+![1](https://github.com/Yoskorn-Git/MyWebsiteAssessment/assets/57613606/3edd2600-5c39-49ea-ab8e-68c74d22eaba)
+![2](https://github.com/Yoskorn-Git/MyWebsiteAssessment/assets/57613606/59ba6bc4-f019-4c71-af1d-72895af1cef8)
+![3](https://github.com/Yoskorn-Git/MyWebsiteAssessment/assets/57613606/5c830c98-cd3e-4e8f-96c8-b535119eb4a6)
 
 ## Built With
-
-My personal portfolio <a href="https://yoskorn.site" target="_blank">yoskorn.site</a> My portfolio showcases several of my GitHub projects along with my resume and technical skill set.<br/>
 
 This project was built using Next.js
 
@@ -15,7 +14,7 @@ This project was built using Next.js
 
 1. Installation: `npm install`
 
-2. In the project directory, you can run: `npm start`
+2. In the project directory, you can run: `npm run dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000)
